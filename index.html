@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        //push operation
+
+        function pushToArray(arr,a){
+            arr.push(a);
+            console.log(arr)
+
+        }
+        const array = [1,2,3];
+        pushToArray(array,4,5);
+
+        const array1 = ['a','b'];
+        pushToArray(array1,'c');
+
+        //pop operation
+
+        function popArray(arr){
+            updatedArray = arr.pop();
+            console.log(updatedArray);
+            console.log(arr)
+        }
+        const myArr = [1,2,3];
+        popArray(myArr);
+
+        const array2 = ['a','b','c'];
+        popArray(array2)
+
+
+
+
+    </script>
+</body>
+</html>
